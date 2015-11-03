@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		014CEA440018CDF011CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA450018CDF011CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//030
+//031
+//032
+//033
+//034
+		034768DFFF38A50411DB9C8B = {
+			children = (
+				F52A38BD0162B39101CA1585,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//030
+//031
+//032
+//033
+//034
+//080
+//081
+//082
+//083
+//084
+		0867D690FE84028FC02AAC07 = {
+			buildStyles = (
+				014CEA440018CDF011CA2923,
+				014CEA450018CDF011CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 0867D691FE84028FC02AAC07;
+			productRefGroup = 034768DFFF38A50411DB9C8B;
+			projectDirPath = "";
+			targets = (
+				F52A38BE0162B39101CA1585,
+			);
+		};
+		0867D691FE84028FC02AAC07 = {
+			children = (
+				F52A38BC0162B39101CA1585,
+				CFD0B760047ED83C00905FC9,
+				CFD0B761047ED84300905FC9,
+				034768DFFF38A50411DB9C8B,
+			);
+			isa = PBXGroup;
+			name = NSSpeechRecognition;
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//CF0
+//CF1
+//CF2
+//CF3
+//CF4
+		CF6FA690047D43CE0007AD73 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SpeakingCharacterView.h;
+			path = Sources/SpeakingCharacterView.h;
+			refType = 4;
+		};
+		CF6FA691047D43CE0007AD73 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SpeakingCharacterView.m;
+			path = Sources/SpeakingCharacterView.m;
+			refType = 4;
+		};
+		CF6FA692047D43CE0007AD73 = {
+			fileRef = CF6FA690047D43CE0007AD73;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CF6FA693047D43CE0007AD73 = {
+			fileRef = CF6FA691047D43CE0007AD73;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CF6FA694047D44270007AD73 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = Buster.plist;
+			path = Resources/Characters/Buster/Buster.plist;
+			refType = 4;
+		};
+		CF6FA695047D44270007AD73 = {
+			isa = PBXFileReference;
+			name = BusterClosed.tif;
+			path = Resources/Characters/Buster/BusterClosed.tif;
+			refType = 4;
+		};
+		CF6FA696047D44270007AD73 = {
+			isa = PBXFileReference;
+			name = BusterIdle1.tif;
+			path = Resources/Characters/Buster/BusterIdle1.tif;
+			refType = 4;
+		};
+		CF6FA697047D44270007AD73 = {
+			isa = PBXFileReference;
+			name = BusterIdle2.tif;
+			path = Resources/Characters/Buster/BusterIdle2.tif;
+			refType = 4;
+		};
+		CF6FA698047D44270007AD73 = {
+			isa = PBXFileReference;
+			name = BusterIdle3.tif;
+			path = Resources/Characters/Buster/BusterIdle3.tif;
+			refType = 4;
+		};
+		CF6FA699047D44270007AD73 = {
+			isa = PBXFileReference;
+			name = BusterIdle4.tif;
+			path = Resources/Characters/Buster/BusterIdle4.tif;
+			refType = 4;
+		};
+		CF6FA69A047D44270007AD73 = {
+			isa = PBXFileReference;
+			name = BusterOpen.tif;
+			path = Resources/Characters/Buster/BusterOpen.tif;
+			refType = 4;
+		};
+		CF6FA69B047D44270007AD73 = {
+			isa = PBXFileReference;
+			name = BusterSleep.tif;
+			path = Resources/Characters/Buster/BusterSleep.tif;
+			refType = 4;
+		};
+		CF6FA69C047D44270007AD73 = {
+			fileRef = CF6FA694047D44270007AD73;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CF6FA69D047D44270007AD73 = {
+			fileRef = CF6FA695047D44270007AD73;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CF6FA69E047D44270007AD73 = {
+			fileRef = CF6FA696047D44270007AD73;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CF6FA69F047D44270007AD73 = {
+			fileRef = CF6FA697047D44270007AD73;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CF6FA6A0047D44270007AD73 = {
+			fileRef = CF6FA698047D44270007AD73;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CF6FA6A1047D44270007AD73 = {
+			fileRef = CF6FA699047D44270007AD73;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CF6FA6A2047D44270007AD73 = {
+			fileRef = CF6FA69A047D44270007AD73;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CF6FA6A3047D44270007AD73 = {
+			fileRef = CF6FA69B047D44270007AD73;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CF6FA6A4047D442C0007AD73 = {
+			children = (
+				CF6FA694047D44270007AD73,
+				CF6FA695047D44270007AD73,
+				CF6FA696047D44270007AD73,
+				CF6FA697047D44270007AD73,
+				CF6FA698047D44270007AD73,
+				CF6FA699047D44270007AD73,
+				CF6FA69A047D44270007AD73,
+				CF6FA69B047D44270007AD73,
+			);
+			isa = PBXGroup;
+			name = Buster;
+			path = "";
+			refType = 4;
+		};
+		CFD0B760047ED83C00905FC9 = {
+			children = (
+				CF6FA6A4047D442C0007AD73,
+				F52A38CA0162B42201CA1585,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+		CFD0B761047ED84300905FC9 = {
+			children = (
+				F52A38D80162B5E601CA1585,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			refType = 4;
+		};
+		CFD0B76B047EDA3800905FC9 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n#\n# Premultiply all \"*.tif\" files in the Resources directory\n#\nresourceDirPath=\"$TARGET_BUILD_DIR/NSSpeechSynthesizerExample.app/Contents/Resources/\"\nfor fileToPremulitply in \"$resourceDirPath\"*.tif\n{\n\tbaseFileName=\"${fileToPremulitply%.tif}\"\n\ttiffutil -cat \"$baseFileName\"\".tif\" -out \"$baseFileName\"\".out.tiff\"\n\tmv -f \"$baseFileName\"\".out.tiff\" \"$baseFileName\"\".tif\"\n}\n";
+		};
+//CF0
+//CF1
+//CF2
+//CF3
+//CF4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F52A38BC0162B39101CA1585 = {
+			children = (
+				F52A38C50162B42201CA1585,
+				F52A38C60162B42201CA1585,
+				F52A38C70162B42201CA1585,
+				CF6FA690047D43CE0007AD73,
+				CF6FA691047D43CE0007AD73,
+			);
+			isa = PBXGroup;
+			name = Sources;
+			refType = 4;
+		};
+		F52A38BD0162B39101CA1585 = {
+			isa = PBXApplicationReference;
+			path = NSSpeechSynthesizerExample.app;
+			refType = 3;
+		};
+		F52A38BE0162B39101CA1585 = {
+			buildPhases = (
+				F52A38BF0162B39101CA1585,
+				F52A38C00162B39101CA1585,
+				F52A38C10162B39101CA1585,
+				F52A38C20162B39101CA1585,
+				F52A38C30162B39101CA1585,
+				CFD0B76B047EDA3800905FC9,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NSSpeechSynthesizerExample;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = NSSpeechSynthesizerExample;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = TestShell;
+			productReference = F52A38BD0162B39101CA1585;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>NSSpeechSynthesizerExample</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Copyright (c) 2003 Apple Computer</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.speech.NSSpeechSynthesizerExample</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>NSSpeechSynthesizer Example</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+		F52A38BF0162B39101CA1585 = {
+			buildActionMask = 2147483647;
+			files = (
+				F52A38CC0162B42201CA1585,
+				CF6FA692047D43CE0007AD73,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52A38C00162B39101CA1585 = {
+			buildActionMask = 2147483647;
+			files = (
+				F52A38CE0162B42201CA1585,
+				CF6FA69C047D44270007AD73,
+				CF6FA69D047D44270007AD73,
+				CF6FA69E047D44270007AD73,
+				CF6FA69F047D44270007AD73,
+				CF6FA6A0047D44270007AD73,
+				CF6FA6A1047D44270007AD73,
+				CF6FA6A2047D44270007AD73,
+				CF6FA6A3047D44270007AD73,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52A38C10162B39101CA1585 = {
+			buildActionMask = 2147483647;
+			files = (
+				F52A38CF0162B42201CA1585,
+				F52A38D00162B42201CA1585,
+				CF6FA693047D43CE0007AD73,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52A38C20162B39101CA1585 = {
+			buildActionMask = 2147483647;
+			files = (
+				F52A38DA0162B5E601CA1585,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52A38C30162B39101CA1585 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52A38C50162B42201CA1585 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = ExampleWindow.h;
+			path = Sources/ExampleWindow.h;
+			refType = 4;
+		};
+		F52A38C60162B42201CA1585 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = ExampleWindow.m;
+			path = Sources/ExampleWindow.m;
+			refType = 4;
+		};
+		F52A38C70162B42201CA1585 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = main.m;
+			path = Sources/main.m;
+			refType = 4;
+		};
+		F52A38CA0162B42201CA1585 = {
+			children = (
+				F52A38CB0162B42201CA1585,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+		};
+		F52A38CB0162B42201CA1585 = {
+			isa = PBXFileReference;
+			name = MainMenu.nib;
+			path = Resources/English.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		F52A38CC0162B42201CA1585 = {
+			fileRef = F52A38C50162B42201CA1585;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F52A38CE0162B42201CA1585 = {
+			fileRef = F52A38CA0162B42201CA1585;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F52A38CF0162B42201CA1585 = {
+			fileRef = F52A38C60162B42201CA1585;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F52A38D00162B42201CA1585 = {
+			fileRef = F52A38C70162B42201CA1585;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F52A38D80162B5E601CA1585 = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		F52A38DA0162B5E601CA1585 = {
+			fileRef = F52A38D80162B5E601CA1585;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 0867D690FE84028FC02AAC07;
+}
