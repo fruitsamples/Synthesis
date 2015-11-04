@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		903584180AE80228001066F1 /* OptionsSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 903584160AE80228001066F1 /* OptionsSheet.h */; };
+		903584190AE80228001066F1 /* OptionsSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 903584170AE80228001066F1 /* OptionsSheet.m */; };
 		EEA0298C07C2C66C0061E044 /* ExampleWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F52A38C50162B42201CA1585 /* ExampleWindow.h */; };
 		EEA0298D07C2C66C0061E044 /* SpeakingCharacterView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6FA690047D43CE0007AD73 /* SpeakingCharacterView.h */; };
 		EEA0298F07C2C66C0061E044 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = F52A38CA0162B42201CA1585 /* MainMenu.nib */; };
@@ -25,33 +27,10 @@
 		EEA0299E07C2C66C0061E044 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52A38D80162B5E601CA1585 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		014CEA440018CDF011CA2923 /* Development */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				OPTIMIZATION_CFLAGS = "-O0";
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		014CEA450018CDF011CA2923 /* Deployment */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXFileReference section */
 		900B7726071C9E710078901D /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		903584160AE80228001066F1 /* OptionsSheet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = OptionsSheet.h; path = Sources/OptionsSheet.h; sourceTree = "<group>"; };
+		903584170AE80228001066F1 /* OptionsSheet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = OptionsSheet.m; path = Sources/OptionsSheet.m; sourceTree = "<group>"; };
 		CF6FA690047D43CE0007AD73 /* SpeakingCharacterView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SpeakingCharacterView.h; path = Sources/SpeakingCharacterView.h; sourceTree = "<group>"; };
 		CF6FA691047D43CE0007AD73 /* SpeakingCharacterView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SpeakingCharacterView.m; path = Sources/SpeakingCharacterView.m; sourceTree = "<group>"; };
 		CF6FA694047D44270007AD73 /* Buster.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; name = Buster.plist; path = Resources/Characters/Buster/Buster.plist; sourceTree = "<group>"; };
@@ -62,7 +41,7 @@
 		CF6FA699047D44270007AD73 /* BusterIdle4.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = BusterIdle4.tif; path = Resources/Characters/Buster/BusterIdle4.tif; sourceTree = "<group>"; };
 		CF6FA69A047D44270007AD73 /* BusterOpen.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = BusterOpen.tif; path = Resources/Characters/Buster/BusterOpen.tif; sourceTree = "<group>"; };
 		CF6FA69B047D44270007AD73 /* BusterSleep.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = BusterSleep.tif; path = Resources/Characters/Buster/BusterSleep.tif; sourceTree = "<group>"; };
-		EEA029A107C2C66C0061E044 /* Info-NSSpeechSynthesizerExample__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-NSSpeechSynthesizerExample__Upgraded_.plist"; sourceTree = "<group>"; };
+		EEA029A107C2C66C0061E044 /* Info-NSSpeechSynthesizerExample.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-NSSpeechSynthesizerExample.plist"; sourceTree = "<group>"; };
 		EEA029A207C2C66C0061E044 /* NSSpeechSynthesizerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSSpeechSynthesizerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52A38C50162B42201CA1585 /* ExampleWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ExampleWindow.h; path = Sources/ExampleWindow.h; sourceTree = "<group>"; };
 		F52A38C60162B42201CA1585 /* ExampleWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = ExampleWindow.m; path = Sources/ExampleWindow.m; sourceTree = "<group>"; };
@@ -98,7 +77,7 @@
 				CFD0B760047ED83C00905FC9 /* Resources */,
 				CFD0B761047ED84300905FC9 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				EEA029A107C2C66C0061E044 /* Info-NSSpeechSynthesizerExample__Upgraded_.plist */,
+				EEA029A107C2C66C0061E044 /* Info-NSSpeechSynthesizerExample.plist */,
 			);
 			name = NSSpeechRecognition;
 			sourceTree = "<group>";
@@ -142,6 +121,8 @@
 				F52A38C50162B42201CA1585 /* ExampleWindow.h */,
 				F52A38C60162B42201CA1585 /* ExampleWindow.m */,
 				F52A38C70162B42201CA1585 /* main.m */,
+				903584160AE80228001066F1 /* OptionsSheet.h */,
+				903584170AE80228001066F1 /* OptionsSheet.m */,
 				CF6FA690047D43CE0007AD73 /* SpeakingCharacterView.h */,
 				CF6FA691047D43CE0007AD73 /* SpeakingCharacterView.m */,
 			);
@@ -157,6 +138,7 @@
 			files = (
 				EEA0298C07C2C66C0061E044 /* ExampleWindow.h in Headers */,
 				EEA0298D07C2C66C0061E044 /* SpeakingCharacterView.h in Headers */,
+				903584180AE80228001066F1 /* OptionsSheet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,21 +158,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-NSSpeechSynthesizerExample__Upgraded_.plist";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = NSSpeechSynthesizerExample;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
 			dependencies = (
 			);
 			name = NSSpeechSynthesizerExample;
@@ -205,16 +172,13 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 48C30E4608F73F2700D0B768 /* Build configuration list for PBXProject "NSSpeechSynthesizerExample" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				014CEA440018CDF011CA2923 /* Development */,
-				014CEA450018CDF011CA2923 /* Deployment */,
-			);
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 0867D691FE84028FC02AAC07 /* NSSpeechRecognition */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
+			projectRoot = "";
+			shouldCheckCompatibility = 1;
 			targets = (
 				EEA0298A07C2C66C0061E044 /* NSSpeechSynthesizerExample */,
 			);
@@ -271,6 +235,7 @@
 				EEA0299A07C2C66C0061E044 /* ExampleWindow.m in Sources */,
 				EEA0299B07C2C66C0061E044 /* main.m in Sources */,
 				EEA0299C07C2C66C0061E044 /* SpeakingCharacterView.m in Sources */,
+				903584190AE80228001066F1 /* OptionsSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,12 +264,13 @@
 		48C30E4308F73F2700D0B768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = i386;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				INFOPLIST_FILE = "Info-NSSpeechSynthesizerExample__Upgraded_.plist";
+				INFOPLIST_FILE = "Info-NSSpeechSynthesizerExample.plist";
 				PRODUCT_NAME = NSSpeechSynthesizerExample;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -312,7 +278,7 @@
 					"-Wno-unknown-pragmas",
 				);
 				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
+				ZERO_LINK = NO;
 			};
 			name = Debug;
 		};
@@ -325,7 +291,8 @@
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
-				INFOPLIST_FILE = "Info-NSSpeechSynthesizerExample__Upgraded_.plist";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Info-NSSpeechSynthesizerExample.plist";
 				PRODUCT_NAME = NSSpeechSynthesizerExample;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -333,26 +300,27 @@
 					"-Wno-unknown-pragmas",
 				);
 				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
 		48C30E4708F73F2700D0B768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Debug;
 		};
 		48C30E4808F73F2700D0B768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Release;
 		};

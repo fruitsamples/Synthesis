@@ -1,0 +1,1125 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9001DA2C0B545C7500C22AD0 /* AllSynthesizersAndVoices */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9001DA330B545C7500C22AD0 /* Build configuration list for PBXAggregateTarget "AllSynthesizersAndVoices" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9001DA620B545C7500C22AD0 /* PBXTargetDependency */,
+				9001DA640B545C7500C22AD0 /* PBXTargetDependency */,
+				9001DA660B545C7500C22AD0 /* PBXTargetDependency */,
+				90EE9C980B5865C400AB4035 /* PBXTargetDependency */,
+				90EE9C9A0B5865C700AB4035 /* PBXTargetDependency */,
+				90EE9C9C0B5865C900AB4035 /* PBXTargetDependency */,
+			);
+			name = AllSynthesizersAndVoices;
+			productName = SynthesizerAndVoices;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9001DA390B545C7500C22AD0 /* SpeechEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F59898390389ADD001CA1584 /* SpeechEngine.h */; };
+		9001DA3B0B545C7500C22AD0 /* SpeechEngineDescription in Resources */ = {isa = PBXBuildFile; fileRef = F558A0DF038B6BA601A8016F /* SpeechEngineDescription */; };
+		9001DA3D0B545C7500C22AD0 /* MySynthesizer.c in Sources */ = {isa = PBXBuildFile; fileRef = F59898360389AD2A01CA1584 /* MySynthesizer.c */; };
+		9001DA3F0B545C7500C22AD0 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F558A0E5038B716501A8016F /* ApplicationServices.framework */; };
+		9001DA4A0B545C7500C22AD0 /* VoiceDescription in Resources */ = {isa = PBXBuildFile; fileRef = F558A0E1038B6BB001A8016F /* VoiceDescription */; };
+		9001DA570B545C7500C22AD0 /* VoiceDescription in Resources */ = {isa = PBXBuildFile; fileRef = F558A0E3038B6BB901A8016F /* VoiceDescription */; };
+		9001DD6E0B545FCE00C22AD0 /* MySynthesizerCF.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B234900B5437520071AD97 /* MySynthesizerCF.c */; };
+		9001DD700B545FD500C22AD0 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F558A0E5038B716501A8016F /* ApplicationServices.framework */; };
+		9001DD860B547D8C00C22AD0 /* SynthesizerSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9001DD850B547D8C00C22AD0 /* SynthesizerSimulator.m */; };
+		9001DD870B547D8C00C22AD0 /* SynthesizerSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9001DD840B547D8C00C22AD0 /* SynthesizerSimulator.h */; };
+		9001DD880B547D8C00C22AD0 /* SynthesizerSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9001DD850B547D8C00C22AD0 /* SynthesizerSimulator.m */; };
+		9001DE3E0B55B80100C22AD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9001DE3D0B55B80100C22AD0 /* Cocoa.framework */; };
+		9001DE3F0B55B80100C22AD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9001DE3D0B55B80100C22AD0 /* Cocoa.framework */; };
+		90EE9CDB0B586F2C00AB4035 /* Sound0.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 90EE9CDA0B586F2C00AB4035 /* Sound0.aiff */; };
+		90EE9CDC0B586F2C00AB4035 /* Sound0.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 90EE9CDA0B586F2C00AB4035 /* Sound0.aiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9001DA610B545C7500C22AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F598981603899BCC01CA1584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9001DA370B545C7500C22AD0;
+			remoteInfo = "ExampleSynthesizer (Upgraded)";
+		};
+		9001DA630B545C7500C22AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F598981603899BCC01CA1584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9001DA470B545C7500C22AD0;
+			remoteInfo = "ExampleVoiceA (Upgraded)";
+		};
+		9001DA650B545C7500C22AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F598981603899BCC01CA1584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9001DA540B545C7500C22AD0;
+			remoteInfo = "ExampleVoiceB (Upgraded)";
+		};
+		90EE9C970B5865C400AB4035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F598981603899BCC01CA1584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9001DA6D0B545D7600C22AD0;
+			remoteInfo = SynthesizerCF;
+		};
+		90EE9C990B5865C700AB4035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F598981603899BCC01CA1584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9001DA790B545DCB00C22AD0;
+			remoteInfo = VoiceCF1;
+		};
+		90EE9C9B0B5865C900AB4035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F598981603899BCC01CA1584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9001DA830B545DDD00C22AD0;
+			remoteInfo = VoiceCF2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9001DA450B545C7500C22AD0 /* Info-Synthesizer.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Info-Synthesizer.plist"; path = "Synthesizer/Info-Synthesizer.plist"; sourceTree = "<group>"; };
+		9001DA460B545C7500C22AD0 /* ExampleSynthesizer.SpeechSynthesizer */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleSynthesizer.SpeechSynthesizer; sourceTree = BUILT_PRODUCTS_DIR; };
+		9001DA520B545C7500C22AD0 /* Info-VoiceA.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Info-VoiceA.plist"; path = "VoiceA/Info-VoiceA.plist"; sourceTree = "<group>"; };
+		9001DA530B545C7500C22AD0 /* VoiceA.SpeechVoice */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceA.SpeechVoice; sourceTree = BUILT_PRODUCTS_DIR; };
+		9001DA600B545C7500C22AD0 /* VoiceB.SpeechVoice */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceB.SpeechVoice; sourceTree = BUILT_PRODUCTS_DIR; };
+		9001DA6E0B545D7600C22AD0 /* ExampleSynthesizerCF.SpeechSynthesizer */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleSynthesizerCF.SpeechSynthesizer; sourceTree = BUILT_PRODUCTS_DIR; };
+		9001DA6F0B545D7600C22AD0 /* Info-SynthesizerCF.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Info-SynthesizerCF.plist"; path = "SynthesizerCF/Info-SynthesizerCF.plist"; sourceTree = "<group>"; };
+		9001DA7A0B545DCB00C22AD0 /* VoiceCF1.SpeechVoice */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceCF1.SpeechVoice; sourceTree = BUILT_PRODUCTS_DIR; };
+		9001DA7B0B545DCB00C22AD0 /* Info-VoiceCF1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Info-VoiceCF1.plist"; path = "VoiceCF1/Info-VoiceCF1.plist"; sourceTree = "<group>"; };
+		9001DA840B545DDD00C22AD0 /* VoiceCF2.SpeechVoice */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceCF2.SpeechVoice; sourceTree = BUILT_PRODUCTS_DIR; };
+		9001DA850B545DDD00C22AD0 /* Info-VoiceCF2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Info-VoiceCF2.plist"; path = "VoiceCF2/Info-VoiceCF2.plist"; sourceTree = "<group>"; };
+		9001DD840B547D8C00C22AD0 /* SynthesizerSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizerSimulator.h; path = Common/SynthesizerSimulator.h; sourceTree = "<group>"; };
+		9001DD850B547D8C00C22AD0 /* SynthesizerSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SynthesizerSimulator.m; path = Common/SynthesizerSimulator.m; sourceTree = "<group>"; };
+		9001DE3D0B55B80100C22AD0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		90B234900B5437520071AD97 /* MySynthesizerCF.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = MySynthesizerCF.c; path = SynthesizerCF/MySynthesizerCF.c; sourceTree = "<group>"; };
+		90EE9C560B58576B00AB4035 /* Info-VoiceB.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = "Info-VoiceB.plist"; path = "VoiceB/Info-VoiceB.plist"; sourceTree = "<group>"; };
+		90EE9CDA0B586F2C00AB4035 /* Sound0.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Sound0.aiff; sourceTree = "<group>"; };
+		F558A0DF038B6BA601A8016F /* SpeechEngineDescription */ = {isa = PBXFileReference; lastKnownFileType = file; name = SpeechEngineDescription; path = Synthesizer/SpeechEngineDescription; sourceTree = "<group>"; };
+		F558A0E1038B6BB001A8016F /* VoiceDescription */ = {isa = PBXFileReference; lastKnownFileType = file; name = VoiceDescription; path = VoiceA/VoiceDescription; sourceTree = "<group>"; };
+		F558A0E3038B6BB901A8016F /* VoiceDescription */ = {isa = PBXFileReference; lastKnownFileType = file; name = VoiceDescription; path = VoiceB/VoiceDescription; sourceTree = "<group>"; };
+		F558A0E5038B716501A8016F /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		F59898360389AD2A01CA1584 /* MySynthesizer.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = MySynthesizer.c; path = Synthesizer/MySynthesizer.c; sourceTree = "<group>"; };
+		F59898390389ADD001CA1584 /* SpeechEngine.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SpeechEngine.h; path = Common/SpeechEngine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9001DA3E0B545C7500C22AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001DA3F0B545C7500C22AD0 /* ApplicationServices.framework in Frameworks */,
+				9001DE3F0B55B80100C22AD0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA4C0B545C7500C22AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA590B545C7500C22AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA6C0B545D7600C22AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001DD700B545FD500C22AD0 /* ApplicationServices.framework in Frameworks */,
+				9001DE3E0B55B80100C22AD0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA780B545DCB00C22AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA820B545DDD00C22AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9001DD790B545FE100C22AD0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				90EE9CD90B586F2C00AB4035 /* Audio */,
+				F59898390389ADD001CA1584 /* SpeechEngine.h */,
+				9001DD840B547D8C00C22AD0 /* SynthesizerSimulator.h */,
+				9001DD850B547D8C00C22AD0 /* SynthesizerSimulator.m */,
+				9001DE3D0B55B80100C22AD0 /* Cocoa.framework */,
+				F558A0E5038B716501A8016F /* ApplicationServices.framework */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9001DD7C0B545FF800C22AD0 /* CF-Based Voice 2 */ = {
+			isa = PBXGroup;
+			children = (
+				9001DA850B545DDD00C22AD0 /* Info-VoiceCF2.plist */,
+			);
+			name = "CF-Based Voice 2";
+			sourceTree = "<group>";
+		};
+		9001DD7F0B54600600C22AD0 /* CF-Based Voice 1 */ = {
+			isa = PBXGroup;
+			children = (
+				9001DA7B0B545DCB00C22AD0 /* Info-VoiceCF1.plist */,
+			);
+			name = "CF-Based Voice 1";
+			sourceTree = "<group>";
+		};
+		90B2348C0B5436FB0071AD97 /* CF-Based Synthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				90B234900B5437520071AD97 /* MySynthesizerCF.c */,
+				9001DA6F0B545D7600C22AD0 /* Info-SynthesizerCF.plist */,
+				9001DD7F0B54600600C22AD0 /* CF-Based Voice 1 */,
+				9001DD7C0B545FF800C22AD0 /* CF-Based Voice 2 */,
+			);
+			name = "CF-Based Synthesizer";
+			sourceTree = "<group>";
+		};
+		90EE9CD90B586F2C00AB4035 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				90EE9CDA0B586F2C00AB4035 /* Sound0.aiff */,
+			);
+			name = Audio;
+			path = Common/Audio;
+			sourceTree = "<group>";
+		};
+		F598981203899BCC01CA1584 = {
+			isa = PBXGroup;
+			children = (
+				90B2348C0B5436FB0071AD97 /* CF-Based Synthesizer */,
+				F598982D03899C8A01CA1584 /* Synthesizer */,
+				9001DD790B545FE100C22AD0 /* Common */,
+				F598981E03899C4001CA1584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F598981E03899C4001CA1584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9001DA460B545C7500C22AD0 /* ExampleSynthesizer.SpeechSynthesizer */,
+				9001DA530B545C7500C22AD0 /* VoiceA.SpeechVoice */,
+				9001DA600B545C7500C22AD0 /* VoiceB.SpeechVoice */,
+				9001DA6E0B545D7600C22AD0 /* ExampleSynthesizerCF.SpeechSynthesizer */,
+				9001DA7A0B545DCB00C22AD0 /* VoiceCF1.SpeechVoice */,
+				9001DA840B545DDD00C22AD0 /* VoiceCF2.SpeechVoice */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F598982D03899C8A01CA1584 /* Synthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				F59898360389AD2A01CA1584 /* MySynthesizer.c */,
+				F558A0DF038B6BA601A8016F /* SpeechEngineDescription */,
+				9001DA450B545C7500C22AD0 /* Info-Synthesizer.plist */,
+				F598982F0389A1D001CA1584 /* Voice A */,
+				F59898300389A1D801CA1584 /* Voice B */,
+			);
+			name = Synthesizer;
+			sourceTree = "<group>";
+		};
+		F598982F0389A1D001CA1584 /* Voice A */ = {
+			isa = PBXGroup;
+			children = (
+				F558A0E1038B6BB001A8016F /* VoiceDescription */,
+				9001DA520B545C7500C22AD0 /* Info-VoiceA.plist */,
+			);
+			name = "Voice A";
+			sourceTree = "<group>";
+		};
+		F59898300389A1D801CA1584 /* Voice B */ = {
+			isa = PBXGroup;
+			children = (
+				F558A0E3038B6BB901A8016F /* VoiceDescription */,
+				90EE9C560B58576B00AB4035 /* Info-VoiceB.plist */,
+			);
+			name = "Voice B";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9001DA380B545C7500C22AD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001DA390B545C7500C22AD0 /* SpeechEngine.h in Headers */,
+				9001DD870B547D8C00C22AD0 /* SynthesizerSimulator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA480B545C7500C22AD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA550B545C7500C22AD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9001DA370B545C7500C22AD0 /* Synthesizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9001DA410B545C7500C22AD0 /* Build configuration list for PBXNativeTarget "Synthesizer" */;
+			buildPhases = (
+				9001DA380B545C7500C22AD0 /* Headers */,
+				9001DA3A0B545C7500C22AD0 /* Resources */,
+				9001DA3C0B545C7500C22AD0 /* Sources */,
+				9001DA3E0B545C7500C22AD0 /* Frameworks */,
+				9001DA400B545C7500C22AD0 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Synthesizer;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Speech/Synthesizers";
+			productName = ExampleSynthesizer;
+			productReference = 9001DA460B545C7500C22AD0 /* ExampleSynthesizer.SpeechSynthesizer */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9001DA470B545C7500C22AD0 /* VoiceA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9001DA4E0B545C7500C22AD0 /* Build configuration list for PBXNativeTarget "VoiceA" */;
+			buildPhases = (
+				9001DA480B545C7500C22AD0 /* Headers */,
+				9001DA490B545C7500C22AD0 /* Resources */,
+				9001DA4B0B545C7500C22AD0 /* Sources */,
+				9001DA4C0B545C7500C22AD0 /* Frameworks */,
+				9001DA4D0B545C7500C22AD0 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceA;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+			productName = ExampleVoiceA;
+			productReference = 9001DA530B545C7500C22AD0 /* VoiceA.SpeechVoice */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9001DA540B545C7500C22AD0 /* VoiceB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9001DA5B0B545C7500C22AD0 /* Build configuration list for PBXNativeTarget "VoiceB" */;
+			buildPhases = (
+				9001DA550B545C7500C22AD0 /* Headers */,
+				9001DA560B545C7500C22AD0 /* Resources */,
+				9001DA580B545C7500C22AD0 /* Sources */,
+				9001DA590B545C7500C22AD0 /* Frameworks */,
+				9001DA5A0B545C7500C22AD0 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceB;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+			productName = ExampleVoiceB;
+			productReference = 9001DA600B545C7500C22AD0 /* VoiceB.SpeechVoice */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9001DA6D0B545D7600C22AD0 /* SynthesizerCF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9001DA700B545D7700C22AD0 /* Build configuration list for PBXNativeTarget "SynthesizerCF" */;
+			buildPhases = (
+				9001DA6A0B545D7600C22AD0 /* Resources */,
+				9001DA6B0B545D7600C22AD0 /* Sources */,
+				9001DA6C0B545D7600C22AD0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynthesizerCF;
+			productName = SynthesizerCF;
+			productReference = 9001DA6E0B545D7600C22AD0 /* ExampleSynthesizerCF.SpeechSynthesizer */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9001DA790B545DCB00C22AD0 /* VoiceCF1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9001DA7C0B545DD000C22AD0 /* Build configuration list for PBXNativeTarget "VoiceCF1" */;
+			buildPhases = (
+				9001DA760B545DCB00C22AD0 /* Resources */,
+				9001DA770B545DCB00C22AD0 /* Sources */,
+				9001DA780B545DCB00C22AD0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceCF1;
+			productName = VoiceCF1;
+			productReference = 9001DA7A0B545DCB00C22AD0 /* VoiceCF1.SpeechVoice */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9001DA830B545DDD00C22AD0 /* VoiceCF2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9001DA860B545DDD00C22AD0 /* Build configuration list for PBXNativeTarget "VoiceCF2" */;
+			buildPhases = (
+				9001DA800B545DDD00C22AD0 /* Resources */,
+				9001DA810B545DDD00C22AD0 /* Sources */,
+				9001DA820B545DDD00C22AD0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceCF2;
+			productName = VoiceCF2;
+			productReference = 9001DA840B545DDD00C22AD0 /* VoiceCF2.SpeechVoice */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F598981603899BCC01CA1584 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 90B234740B5435F20071AD97 /* Build configuration list for PBXProject "SynthesizerAndVoiceExample" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = F598981203899BCC01CA1584;
+			productRefGroup = F598981E03899C4001CA1584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9001DA2C0B545C7500C22AD0 /* AllSynthesizersAndVoices */,
+				9001DA370B545C7500C22AD0 /* Synthesizer */,
+				9001DA470B545C7500C22AD0 /* VoiceA */,
+				9001DA540B545C7500C22AD0 /* VoiceB */,
+				9001DA6D0B545D7600C22AD0 /* SynthesizerCF */,
+				9001DA790B545DCB00C22AD0 /* VoiceCF1 */,
+				9001DA830B545DDD00C22AD0 /* VoiceCF2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9001DA3A0B545C7500C22AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001DA3B0B545C7500C22AD0 /* SpeechEngineDescription in Resources */,
+				90EE9CDB0B586F2C00AB4035 /* Sound0.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA490B545C7500C22AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001DA4A0B545C7500C22AD0 /* VoiceDescription in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA560B545C7500C22AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001DA570B545C7500C22AD0 /* VoiceDescription in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA6A0B545D7600C22AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EE9CDC0B586F2C00AB4035 /* Sound0.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA760B545DCB00C22AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA800B545DDD00C22AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		9001DA400B545C7500C22AD0 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA4D0B545C7500C22AD0 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA5A0B545C7500C22AD0 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9001DA3C0B545C7500C22AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001DA3D0B545C7500C22AD0 /* MySynthesizer.c in Sources */,
+				9001DD880B547D8C00C22AD0 /* SynthesizerSimulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA4B0B545C7500C22AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA580B545C7500C22AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA6B0B545D7600C22AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001DD6E0B545FCE00C22AD0 /* MySynthesizerCF.c in Sources */,
+				9001DD860B547D8C00C22AD0 /* SynthesizerSimulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA770B545DCB00C22AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001DA810B545DDD00C22AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9001DA620B545C7500C22AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9001DA370B545C7500C22AD0 /* Synthesizer */;
+			targetProxy = 9001DA610B545C7500C22AD0 /* PBXContainerItemProxy */;
+		};
+		9001DA640B545C7500C22AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9001DA470B545C7500C22AD0 /* VoiceA */;
+			targetProxy = 9001DA630B545C7500C22AD0 /* PBXContainerItemProxy */;
+		};
+		9001DA660B545C7500C22AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9001DA540B545C7500C22AD0 /* VoiceB */;
+			targetProxy = 9001DA650B545C7500C22AD0 /* PBXContainerItemProxy */;
+		};
+		90EE9C980B5865C400AB4035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9001DA6D0B545D7600C22AD0 /* SynthesizerCF */;
+			targetProxy = 90EE9C970B5865C400AB4035 /* PBXContainerItemProxy */;
+		};
+		90EE9C9A0B5865C700AB4035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9001DA790B545DCB00C22AD0 /* VoiceCF1 */;
+			targetProxy = 90EE9C990B5865C700AB4035 /* PBXContainerItemProxy */;
+		};
+		90EE9C9C0B5865C900AB4035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9001DA830B545DDD00C22AD0 /* VoiceCF2 */;
+			targetProxy = 90EE9C9B0B5865C900AB4035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9001DA340B545C7500C22AD0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SynthesizerAndVoices;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Development;
+		};
+		9001DA350B545C7500C22AD0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SynthesizerAndVoices;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		9001DA360B545C7500C22AD0 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SynthesizerAndVoices;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		9001DA420B545C7500C22AD0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Synthesizer/Info-Synthesizer.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Synthesizers";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExampleSynthesizer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = SpeechSynthesizer;
+			};
+			name = Development;
+		};
+		9001DA430B545C7500C22AD0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Synthesizer/Info-Synthesizer.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Synthesizers";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExampleSynthesizer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = SpeechSynthesizer;
+			};
+			name = Deployment;
+		};
+		9001DA440B545C7500C22AD0 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Synthesizer/Info-Synthesizer.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Synthesizers";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExampleSynthesizer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = SpeechSynthesizer;
+			};
+			name = Default;
+		};
+		9001DA4F0B545C7500C22AD0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "VoiceA/Info-VoiceA.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = VoiceA;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = SpeechVoice;
+			};
+			name = Development;
+		};
+		9001DA500B545C7500C22AD0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "VoiceA/Info-VoiceA.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = VoiceA;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = SpeechVoice;
+			};
+			name = Deployment;
+		};
+		9001DA510B545C7500C22AD0 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "VoiceA/Info-VoiceA.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = VoiceA;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = SpeechVoice;
+			};
+			name = Default;
+		};
+		9001DA5C0B545C7500C22AD0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "VoiceB/Info-VoiceB.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = VoiceB;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = SpeechVoice;
+			};
+			name = Development;
+		};
+		9001DA5D0B545C7500C22AD0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "VoiceB/Info-VoiceB.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = VoiceB;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = SpeechVoice;
+			};
+			name = Deployment;
+		};
+		9001DA5E0B545C7500C22AD0 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "VoiceB/Info-VoiceB.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = VoiceB;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = SpeechVoice;
+			};
+			name = Default;
+		};
+		9001DA710B545D7700C22AD0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "SynthesizerCF/Info-SynthesizerCF.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Synthesizers";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ExampleSynthesizerCF;
+				WRAPPER_EXTENSION = SpeechSynthesizer;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		9001DA720B545D7700C22AD0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "SynthesizerCF/Info-SynthesizerCF.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Synthesizers";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ExampleSynthesizerCF;
+				WRAPPER_EXTENSION = SpeechSynthesizer;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		9001DA730B545D7700C22AD0 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "SynthesizerCF/Info-SynthesizerCF.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Synthesizers";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ExampleSynthesizerCF;
+				WRAPPER_EXTENSION = SpeechSynthesizer;
+				ZERO_LINK = YES;
+			};
+			name = Default;
+		};
+		9001DA7D0B545DD000C22AD0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "VoiceCF1/Info-VoiceCF1.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = VoiceCF1;
+				WRAPPER_EXTENSION = SpeechVoice;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		9001DA7E0B545DD000C22AD0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "VoiceCF1/Info-VoiceCF1.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = VoiceCF1;
+				WRAPPER_EXTENSION = SpeechVoice;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		9001DA7F0B545DD000C22AD0 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "VoiceCF1/Info-VoiceCF1.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = VoiceCF1;
+				WRAPPER_EXTENSION = SpeechVoice;
+				ZERO_LINK = YES;
+			};
+			name = Default;
+		};
+		9001DA870B545DDD00C22AD0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "VoiceCF2/Info-VoiceCF2.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = VoiceCF2;
+				WRAPPER_EXTENSION = SpeechVoice;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		9001DA880B545DDD00C22AD0 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "VoiceCF2/Info-VoiceCF2.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = VoiceCF2;
+				WRAPPER_EXTENSION = SpeechVoice;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		9001DA890B545DDD00C22AD0 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "VoiceCF2/Info-VoiceCF2.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Speech/Voices/";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = VoiceCF2;
+				WRAPPER_EXTENSION = SpeechVoice;
+				ZERO_LINK = YES;
+			};
+			name = Default;
+		};
+		90B234750B5435F20071AD97 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		90B234760B5435F20071AD97 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		90B234770B5435F20071AD97 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9001DA330B545C7500C22AD0 /* Build configuration list for PBXAggregateTarget "AllSynthesizersAndVoices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001DA340B545C7500C22AD0 /* Development */,
+				9001DA350B545C7500C22AD0 /* Deployment */,
+				9001DA360B545C7500C22AD0 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		9001DA410B545C7500C22AD0 /* Build configuration list for PBXNativeTarget "Synthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001DA420B545C7500C22AD0 /* Development */,
+				9001DA430B545C7500C22AD0 /* Deployment */,
+				9001DA440B545C7500C22AD0 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		9001DA4E0B545C7500C22AD0 /* Build configuration list for PBXNativeTarget "VoiceA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001DA4F0B545C7500C22AD0 /* Development */,
+				9001DA500B545C7500C22AD0 /* Deployment */,
+				9001DA510B545C7500C22AD0 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		9001DA5B0B545C7500C22AD0 /* Build configuration list for PBXNativeTarget "VoiceB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001DA5C0B545C7500C22AD0 /* Development */,
+				9001DA5D0B545C7500C22AD0 /* Deployment */,
+				9001DA5E0B545C7500C22AD0 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		9001DA700B545D7700C22AD0 /* Build configuration list for PBXNativeTarget "SynthesizerCF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001DA710B545D7700C22AD0 /* Development */,
+				9001DA720B545D7700C22AD0 /* Deployment */,
+				9001DA730B545D7700C22AD0 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		9001DA7C0B545DD000C22AD0 /* Build configuration list for PBXNativeTarget "VoiceCF1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001DA7D0B545DD000C22AD0 /* Development */,
+				9001DA7E0B545DD000C22AD0 /* Deployment */,
+				9001DA7F0B545DD000C22AD0 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		9001DA860B545DDD00C22AD0 /* Build configuration list for PBXNativeTarget "VoiceCF2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001DA870B545DDD00C22AD0 /* Development */,
+				9001DA880B545DDD00C22AD0 /* Deployment */,
+				9001DA890B545DDD00C22AD0 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		90B234740B5435F20071AD97 /* Build configuration list for PBXProject "SynthesizerAndVoiceExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B234750B5435F20071AD97 /* Development */,
+				90B234760B5435F20071AD97 /* Deployment */,
+				90B234770B5435F20071AD97 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F598981603899BCC01CA1584 /* Project object */;
+}

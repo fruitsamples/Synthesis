@@ -1,0 +1,18 @@
+
+ABOUT THIS EXAMPLE
+
+This example shows how to create Synthesizer and Voice bundles that support the Mac OS X Speech Synthesis API.  If you follow this approach your voice(s) will be selectable by the user in the Speech preference panel and other applications that support the Speech Synthesis API.  Whenever an application calls the Speech Synthesis API to generate speech using one of your voices, your synthesizer will automatically be loaded and handed the text to speak.  The API also allows for a number of parameters to be specified, as well as, callbacks for phoneme, word, and other events to be sent during the synthesis process.
+
+The header file SpeechEngine.h describes the routines the synthesizer must implement in order to be loaded and called by the Speech Synthesis API.  Mac OS X 10.5 (Leopard) introduces a new CF-Based synthesizer plug-in API.  This will allow the synthesizer plug-in to receive CFStrings - and other CF-based objects - directly from the speaking application when running on Leopard or later. This example project contains two separate synthesizers, one that uses the old buffer-based plug-in API and one that uses the new CF-based plug-in API.  However, you can combine support for both APIs in a single synthesizer and leverage the benefits of CF-based objects when your synthesizer is running on 10.5 or later.
+
+If you're porting an existing synthesis engine to use the Mac OS X Speech Synthesis architecture you'll need to consider whether it's best to implement your engine within the plug-in itself, or have plug-in just manage communicate the API and a separate synthesis server process.  Since the plug-in is actually loaded within each process that speaks, your memory requirements and existing engine design may affect this decision.
+
+More documentation is available online at: http://developer.apple.com/documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide
+
+
+BUILDING AND INSTALLING THE EXAMPLE
+
+To build and install this example, open the Terminal application, set the current directory to this example's directory, then execute the xcodebuild command to build and install the main target.  For example, these commands build and install from the "SynthesizerAndVoiceExample" directory in the user's home directory:
+
+cd ~/SynthesizerAndVoiceExample
+sudo xcodebuild install DSTROOT=/
